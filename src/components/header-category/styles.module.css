@@ -1,0 +1,20 @@
+.headerCategory{
+    border-bottom: 2px solid var(--light-gray);
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.categoryItem{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md);
+    border-bottom: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 250ms ease;
+
+    &:hover{
+        border-bottom: 2px solid var(--orange);
+        color: var(--orange);
+    }
+}

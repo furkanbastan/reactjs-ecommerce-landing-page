@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr min(1000px, 90%) 1fr;
+    grid-template-rows: 90px 34px 1fr;
+}
+
+.container > * {
+    grid-column: 2;
+}
+
+.container>.fluid {
+    grid-column: 1/-1;
+}
+
+img {
+    width: 100%;
+    display: block;
+}

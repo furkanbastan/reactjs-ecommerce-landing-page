@@ -1,0 +1,31 @@
+:root {
+    --primary-blue: #024DFEff;
+    --green: #5DC00Dff;
+    --white: #D3D3D2ff;
+    --dark-gray: #686963;
+    --light-gray: #F1F2F2;
+    --orange: #F49549;
+
+    --fw-xs: 200;
+    --fw-sm: 300;
+    --fw-md: 500;
+    --fw-lg: 600;
+    --fw-xl: 700;
+    --fw-xxl: 800;
+
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 28px;
+    --fs-xxl: 38px;
+
+    --space-xs: 10px;
+    --space-sm: 20px;
+    --space-md: 25px;
+    --space-lg: 35px;
+    --space-xl: 45px;
+    --space-xxl: 55px;
+
+    --width-product-card: 200px;
+    --height-product-card: 300px;
+}
